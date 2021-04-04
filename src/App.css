@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  background-color: #000000;
+}
+
+.App-header {
+  width: 100%;
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: white;
+}
+
+input {
+  padding: 0.6rem;
+  width: 300px;
+  margin-bottom: 1rem;
+}
+
+.add-review {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#btn {
+  cursor: pointer;
+  width: 8rem;
+  padding: 1rem 0rem;
+  font-size: 1rem;
+  background-color: cornflowerblue;
+  color: white;
+  border: none;
+  border-radius: 2rem;
+}
+#btn:hover {
+  background-color: rgb(73, 119, 206);
+}
+
+.del-btn {
+  cursor: pointer;
+  width: 8rem;
+  padding: 1rem 0rem;
+  font-size: 1rem;
+  background-color: rgb(237, 100, 100);
+  color: white;
+  border: none;
+  border-radius: 2rem;
+}
+
+.del-btn:hover {
+  background-color: rgb(206, 73, 73);
+}
+
+.review {
+  border: 1px solid grey;
+  width: fit-content;
+  padding: 1em;
+}
+
+.reviews {
+  display: flex;
+}
